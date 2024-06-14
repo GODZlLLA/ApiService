@@ -5,6 +5,7 @@ type FetchProps = {
   option?: AxiosRequestConfig,
   cacheLimit?: number,
 }
+
 /**
  * https://zenn.dev/morinokami/books/learning-patterns-1/viewer/singleton-pattern
  * ApiServiceクラスはリクエストが進行中かどうかを追跡し、他のコンポーネントが同時にデータを要求した場合でも再リクエストを行わず、同じプロミスを返却します。
